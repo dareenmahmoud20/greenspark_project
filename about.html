@@ -1,0 +1,71 @@
+<!--
+  Group Members: Jeshua Herrera and Dareen Mahmound
+  File Name: about.html
+  Date: 06/20/2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>About | GreenSpark Initiative</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-container" aria-label="Main navigation">
+      <div class="logo">GreenSpark</div>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-page">
+    <section>
+      <h1>About GreenSpark</h1>
+      <p>
+        GreenSpark Initiative was founded in 2010 with the vision of restoring ecosystems and empowering communities through environmental education and action.
+      </p>
+    </section>
+
+    <section class="about-video">
+      <h2>Our Mission in Action</h2>
+      <video controls preload="metadata">
+        <source src="media/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="about-image">
+      <figure>
+        <img src="images/tree-planting.jpg" alt="Volunteers planting trees">
+        <figcaption>Volunteers planting trees in our 2024 Seattle project</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GreenSpark Initiative</p>
+    <div class="social-links" aria-label="Social media links">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+      <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
